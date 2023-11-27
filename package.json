@@ -36,6 +36,9 @@
   "files": [
     "dist"
   ],
+  "stackblitz": {
+    "startCommand": "pnpm run build"
+  },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
